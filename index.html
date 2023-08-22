@@ -6,6 +6,8 @@
     <title>Father Bank</title>
     <!-- added tailwind css  -->
     <script src="https://cdn.tailwindcss.com"></script>
+
+    
 </head>
 <body>
     <header>
@@ -16,12 +18,14 @@
             
                 <h1 class="text-3xl mb-3" >Father's Bank</h1>
                 <div>
-                <input class="mb-3 p-2 rounded-lg block w-9/12" type="email" name="email" id="" placeholder="email address">
-                <input class="mb-3 p-2 rounded-lg block w-9/12" type="password" name="password" id="" placeholder="pass word">
+                <input class="mb-3 p-2 rounded-lg block w-9/12" type="email" name="email" id="user-email" placeholder="email address">
+                <input class="mb-3 p-2 rounded-lg block w-9/12" type="password" name="password" id="user-password" placeholder="pass word">
                 <br>
-                <button class="rounded-lg bg-violet-200 hover:bg-sky-700 px-8 py-2">Login</button>
+                <button id="login-btn" class="rounded-lg bg-violet-200 hover:bg-sky-700 hover:text-zinc-50 px-8 py-2">Login</button>
             </div>
         </section>
     </main>
+    <script src="login.js"></script>
+
 </body>
 </html>
